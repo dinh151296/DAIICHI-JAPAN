@@ -447,6 +447,7 @@ header {
     padding: 16px;
     position: relative;
     height: 100%;
+    width: 100%;
 }
 
 .view__number {
@@ -485,7 +486,7 @@ header {
     padding: 16px 0px 13px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     justify-content: space-between;
 }
  
@@ -551,7 +552,6 @@ header {
 }
 
 .more-info__list li .__icon img {
-    width: auto;
     max-width: 12px;
 }
 
@@ -705,6 +705,16 @@ header {
     padding: 46px 76px;
     gap: 76px;
     margin-top: 140px;
+}
+
+.wrap__form-contact .__title-ab {
+    position: absolute;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    left: 0px;
+    top: -62px;
 }
 
 .form__img {
@@ -973,14 +983,12 @@ footer {
     padding: 40px 0px 46px;
 }
 
-.eyecatch-page .__desc h1 {
+.eyecatch-page .__desc h1.title__page {
     color: #fff;
-    font-size: 40px;
-    font-weight: 700;
     text-align: center;
 }
 
-.eyecatch-page .__desc h1 span {
+.eyecatch-page .__desc h1.title__page span {
     display: block;
     font-weight: 400;
 }
@@ -1055,8 +1063,6 @@ footer {
 
 .wrap__aside {
     padding-left: 26px;
-    position: sticky;
-    top: 10px;
 }
 
 .aside__box {
@@ -1132,9 +1138,8 @@ footer {
     left: -5px;
 }
 
-.detail__name h1 {
+.detail__name h1.title__page {
     font-size: 32px;
-    font-weight: 700;
     margin-bottom: 10px;
 }
 
@@ -1179,6 +1184,11 @@ footer {
 
 }
 
+.content-page__detail  .wrap__share-fb {
+    padding: 12px 0px;
+    margin-bottom: 20px;
+}
+
 .wrap__share-fb  span {
     display: flex;
     align-items: center;
@@ -1191,8 +1201,14 @@ footer {
     padding: 5px 6px;
 }
 
+.wrap__share-fb p {
+    font-size: 20px;
+    margin: 0px;
+}
+
 .wrap__share-fb  span img {
     width: auto;
+    margin: 0px;
 }
 
 .wrap__share-fb  a {
@@ -1200,5 +1216,158 @@ footer {
     align-items: center;
     gap: 20px;
     white-space: nowrap;
+}
+
+.wrap__share-fb  a img {
+    margin: 0px;
+}
+
+.aside__title-box {
+    background-color: #000364;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    padding: 18px 40px;
+}
+
+.wrap-aside__link {
+    border-radius: 12px;
+    background-color:#F9F9F9;
+    padding: 10px 32px;
+    margin-bottom: 20px;
+}
+
+.wrap-aside__link  a {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 18px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+.wrap-aside__link  a img {
+    width: 24px;
+}
+
+.wrap-aside__link  a:hover {
+    color: #000000;
+}
+
+.wrap-aside__link  a:hover img {
+    transform: translateX(3px);
+}
+
+.wrap-aside__link li:not(:first-child) {
+    border-top: 1px solid #BBBBBB;
+}
+
+.order__item.in-aside .thumb a img {
+    height: 274px;
+}
+
+.more-info__list.in-aside {
+    padding-right: 20px;
+    border-top: 0px;
+}
+
+.wrap__more-info  {
+    justify-content: space-between;
+    border-top: 1px solid #DFDFDF;
+}
+
+.more-info__link a {
+    display: inline-flex;
+    align-items: center;
+    background-color: #FD9300;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    gap: 4.5px;
+    padding: 2px 10px;
+    white-space: nowrap;
+}
+
+.more-info__link a img {
+    width: auto;
+}
+
+.contact-part__page {
+    padding-top: 40px;
+    margin-top: 40px;
+    border-top: 1px solid #D3D3D3;
+}
+
+.contact-part__page  h3.__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-part__page  p.__desc {
+    color:#737373;
+    text-align: center;
+    font-size: 20px;
+}
+
+.contact-part__page form {
+    padding: 40px 150px;
+    background-color: #FCFCFC;
+    margin-top: 30px;
+}
+
+.content-page__detail h1.title__page {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.order__item.new__related .thumb a img {
+    height: 230px;
+}
+
+h1.title__page {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.page-contact__content {
+    padding: 40px 0px 60px;
+}
+
+.contact__content {
+    padding: 28px;
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+}
+
+.contact__content .__head  {
+    gap: 14px;
+}
+
+.contact__content .__head  h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contact__content .__head a {
+    padding: 4px;
+    border: 0.5px solid #CBCBCB;
+}
+
+.contact__content .__head a img {
+    width: 135px;
+}
+
+.contact__content-map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-dialog.modal-contact {
+    max-width: 800px;
 }
 /* style for page */
